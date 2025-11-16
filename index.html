@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>VigneshTech — Premium Portfolio & Services</title>
+
+  <!-- Google font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <link rel="icon" href="./Images/Icon.png">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  
+
+  <!-- Header / Hero -->
+  <header class="hero" id="home" aria-label="VigneshTech hero">
+     <!-- 🌙 Theme Toggle Button -->
+    <div class="theme-toggle" aria-label="Toggle Dark/Light Mode">
+      <input type="checkbox" id="themeSwitch">
+      <label for="themeSwitch" class="toggle-label">
+        <span class="sun">☀️</span>
+        <span class="moon">🌙</span>
+      </label>
+    </div>
+    <!-- End-->
+    <div class="hero-inner container">
+      <div class="brand">
+<!-- Animated 'V' logo SVG -->
+<div class="logo-wrap" aria-hidden="true"> <svg class="logo-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="VigneshTech logo"> <defs> <linearGradient id="rgrad" x1="0" x2="1"> <stop offset="0" stop-color="#66b2ff" /> <stop offset="1" stop-color="#007BFF" /> </linearGradient> <filter id="softGlow"> <feGaussianBlur stdDeviation="6" result="b"/> <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge> </filter> </defs> <circle cx="50" cy="50" r="44" fill="url(#rgrad)" opacity="0.95" filter="url(#softGlow)"/> <path class="logo-v" d="M30 65 L50 34 L70 65" stroke="#fff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none" /> <circle cx="50" cy="56" r="6" fill="#fff" /> </svg>           
+        </div>
+
+        <div class="brand-text">
+          <h1 class="brand-title">VigneshTech</h1>
+          <p class="brand-sub">Design • Develop • Deliver</p>
+        </div>
+      </div>
+
+      <div class="hero-content">
+        <h2 class="title">Websites with clarity and conversion</h2>
+        <p class="lead">Clean, responsive portfolios and small business sites — crafted with modern UI, fast performance and professional polish.</p>
+        <div class="cta">
+          <a href="#packages" class="btn btn-primary">View Packages</a>
+          <a href="#contact" class="btn btn-ghost">Contact</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Packages section -->
+  <main>
+     <!-- My Intro -->
+  <section id="intro" class="section container reveal">
+    <h3 class="section-title">About Vignesh</h3>
+    <div class="intro-grid">
+      <div class="intro-text">
+        <p>
+          Hey there 👋 I’m <strong>Vignesh Kumar</strong>, the creator behind <strong>VigneshTech</strong>.  
+          I’m a passionate <strong>Frontend Web Developer</strong> who transforms ideas into interactive, visually refined websites.  
+          I focus on clean design, intuitive user experience, and perfect responsiveness across all devices.  
+        <br><br>
+          Whether you’re a student, freelancer, or small business owner — I help you build a digital identity that stands out.  
+          Each website I craft is <strong>personalized, fast, and optimized</strong> for real-world impact.
+        </p>
+      </div>
+      <div class="intro-photo">
+        <img src="./Images/Vignesh_Logo.jpg" alt="Vignesh working" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+    <section id="packages" class="section container">
+      <h3 class="section-title">Service Packages</h3>
+
+      <div class="cards">
+        <article class="card reveal">
+          <div class="card-head">
+            <h4>Starter <span>🚀</span> </h4>
+            <div class="price">₹500</div>
+          </div>
+          <ul class="card-list">
+            <li>Single-page portfolio (HTML/CSS/JS)</li>
+            <li>Editable source code</li>
+            <li>Resume & projects section</li>
+          </ul>
+          <div class="card-foot">Delivery: 1 day</div>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-head">
+            <h4>Pro <span>🧩</span></h4>
+            <div class="price">₹1000</div>
+          </div>
+          <ul class="card-list">
+            <li>Multi-section React-like structure (JS)</li>
+            <li>Contact form (EmailJS integration ready)</li>
+            <li>Hosting guidance (Netlify/Vercel)</li>
+          </ul>
+          <div class="card-foot">Delivery: 2–3 days</div>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-head">
+            <h4>Elite <span>👑</span></h4>
+            <div class="price">₹1500</div>
+          </div>
+          <ul class="card-list">
+            <li>Custom theme, animations & domain setup</li>
+            <li>Dark/Light theme toggle</li>
+            <li>Priority support (7 days)</li>
+          </ul>
+          <div class="card-foot">Delivery: 3–5 days</div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Features / Why choose -->
+    <section id="features" class="section container reveal">
+      <h3 class="section-title">Why choose VigneshTech</h3>
+      <div class="features-grid">
+         <div class="feature">
+        <h5>👨‍💻 Passion-Driven Development</h5>
+        <p>I don’t just deliver websites — I deliver experiences.  
+        Every design decision is driven by your brand’s purpose and audience.</p>
+      </div>
+      <div class="feature">
+        <h5>⚡ Fast & Optimized</h5>
+        <p>Websites load quickly, perform smoothly, and follow SEO-friendly structures — perfect for personal brands or small businesses.</p>
+      </div>
+
+      <div class="feature">
+        <h5>📱 Fully Responsive</h5>
+        <p>From 4-inch phones to widescreen monitors — your site always looks professional and adjusts perfectly to every device.</p>
+      </div>
+
+      <div class="feature">
+        <h5>🎨 Professional Aesthetic</h5>
+        <p>Clean w design with a touch of personality — ensuring your brand feels premium and reliable at first glance.</p>
+      </div>
+
+      <div class="feature">
+        <h5>🛠️ End-to-End Support</h5>
+        <p>From setup to deployment, I’ll guide you through every step — ensuring your site is live, secure, and easy to update.</p>
+      </div>
+
+      <div class="feature">
+        <h5>🤝 Transparent Pricing</h5>
+        <p>No surprises or hidden charges. Each package is clear, affordable, and tailored to what you actually need.</p>
+      </div>
+    </div>
+  </section>
+
+    <!-- Contact / Required details -->
+    <section id="contact" class="section container reveal">
+      <h3 class="section-title">Required Details & Contact</h3>
+
+      <div class="contact-grid">
+        <div>
+          <h4>What I need</h4>
+          <ul>
+            <li>Full name & short bio</li>
+            <li>Email, LinkedIn & GitHub links</li>
+            <li>Resume (education, projects, skills)</li>
+            <li>Preferred colors / sample sites (optional)</li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Contact</h4>
+          <p>   <i class="fas fa-briefcase"></i> <!-- A briefcase icon, often used for portfolio -->
+<a href="https://vigneshkumar2711.github.io/My-Portfolio-Website/">View My Portfolio</a></p>
+          <p><i class="fa-solid fa-envelope"></i> <a href="mailto:vigneshtech@gmail.com">vigneshtech@gmail.com</a></p>
+          <p><i class="fa-brands fa-linkedin"></i><a href="https://linkedin.com/in/vigneshtech" target="_blank" rel="noopener">linkedin.com/in/vigneshtech</a></p>
+          <p><i class="fa-brands fa-whatsapp" ></i><a href="https://wa.me/9515415228" target="_blank">Chat with me via WhatsApp</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <small>© <span id="year"></span> VigneshTech <img src="./Images/Icon.png"> — Crafted in Chittoor</small>
+    </div>
+  </footer>
+  <button id="backToTopBtn">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
