@@ -22,6 +22,7 @@ Clean structure with optimized layout
 Service cards with pricing
 
 Contact details & required info section
+
 🧩 Service Packages
 Starter — ₹500
 
@@ -54,6 +55,7 @@ Dark/Light theme toggle
 Priority support (7 days)
 
 Delivery: 3–5 days
+
 💡 Why Choose VigneshTech
 
 Passion-driven development
@@ -70,31 +72,22 @@ Transparent pricing
 pricing
 
 
-
 📬 Contact
-
 
 Email: vigneshtech@gmail.com
 
-
 LinkedIn: linkedin.com/in/vigneshtech
 
-
 WhatsApp: wa.me/9515415228
-
 
 Portfolio: vigneshkumar2711.github.io/My-Portfolio-Website
 
 
-
 📌 Required Details From Clients
-
 
 Full name + short bio
 
-
 Email, LinkedIn & GitHub links
-
 
 Resume (education, projects, skills)
 
